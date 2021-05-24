@@ -277,3 +277,35 @@ text-align: center;
 	background:#ffa1be url("party.jpg") no-repeat;
 	background-blend-mode: multiply;
 }
+.nine{
+	.box{
+  position:absolute;
+  z-index:10;
+  width: 100px;
+  height: 100px;
+background: rgba(207,49,238,0.25);
+box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+backdrop-filter: blur(4.8px);
+-webkit-backdrop-filter: blur(4.8px);
+border-radius: 10px;
+   -moz-box-shadow:    inset 0 0 10px #fff;
+   -webkit-box-shadow: inset 0 0 10px #fff;
+   box-shadow:         inset 0 0 10px #fff;
+transition-duration:1s;
+}
+
+
+.box2{
+    width: 500px;
+  height: 500px;
+  position:absolute;
+  top:50px;
+background: gray;
+}
+
+.box:hover{
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+transition-duration:1s;
+  }	
+}

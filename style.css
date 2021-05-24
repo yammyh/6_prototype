@@ -277,6 +277,9 @@ text-align: center;
 	background:#ffa1be url("party.jpg") no-repeat;
 	background-blend-mode: multiply;
 }
+.nine{
+position:relative;
+}
 
 .nine.box{
   position:absolute;
